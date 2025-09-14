@@ -44,7 +44,7 @@ my-chrome-extension/
 
 🛠️ Instalação manual (modo desenvolvedor)
 
-1. Baixe este repositório ou a última [Release](https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases).
+1. Baixe este repositório (https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
 2. Abra o Chrome e vá até: chrome://extensions
 
 3. Ative o **Modo do desenvolvedor** (Developer Mode).
@@ -63,7 +63,7 @@ my-chrome-extension/
 
 | Popup | 
 |-------|------------------|
-| ![Popup](docs/screenshot-popup.png) | ![Content Script](docs/screenshot-content.png) |
+| ![Popup](c:\Users\beaut\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-09-14 160831.png) | ![Content Script](c:\Users\beaut\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-09-14 161102.png) |
 
 ---
 
@@ -71,13 +71,11 @@ my-chrome-extension/
 
 - `storage` → salvar preferências do usuário.
 - `tabs` → interagir com as abas abertas.
-- *(adicione aqui outras que você usou)*
-
 ---
 
 📦 Download
 
-Baixe a versão empacotada (.zip) na aba [Releases](https://github.com/SEU-USUARIO/bootcamp2-chrome-ext-SEUNOME/releases).
+Baixe a versão empacotada (.zip) na aba [Releases](https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
 
 ---
 
