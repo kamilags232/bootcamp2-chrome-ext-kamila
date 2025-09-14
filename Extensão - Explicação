@@ -44,8 +44,10 @@ my-chrome-extension/
 
 🛠️ Instalação manual (modo desenvolvedor)
 
-1. Baixe este repositório (https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
-2. Abra o Chrome e vá até: chrome://extensions
+1. Baixe este repositório 
+[Repositório](https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
+2. Abra o Chrome e vá até: 
+[Extensões](chrome://extensions)
 
 3. Ative o **Modo do desenvolvedor** (Developer Mode).
 4. Clique em **Load unpacked** e selecione a pasta do projeto.
@@ -55,7 +57,8 @@ my-chrome-extension/
 
 🌐 Landing Page (GitHub Pages)
 
-👉 Acesse: (file:///C:/Users/beaut/focus-tab/docs/index.html)
+👉 Acesse: 
+[Landing Page](file:///C:/Users/beaut/focus-tab/docs/index.html)
 
 ---
 
@@ -67,7 +70,8 @@ my-chrome-extension/
 
 📦 Download
 
-Baixe a versão empacotada (.zip) na aba [Releases](https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
+Baixe a versão empacotada (.zip) na aba 
+[Releases](https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
 
 ---
 
@@ -80,7 +84,7 @@ Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para 
 👩‍💻 Autor
 
 Projeto feito por Kamila Gomes da Silva
-🔗 [GitHub](https://github.com/kamilags232)  
+[GitHub](https://github.com/kamilags232)  
 
 
 
