@@ -59,14 +59,6 @@ my-chrome-extension/
 
 ---
 
-📸 Screenshots
-
-| Popup | 
-|-------|------------------|
-| ![Popup](c:\Users\beaut\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-09-14 160831.png) | ![Content Script](c:\Users\beaut\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-09-14 161102.png) |
-
----
-
 🔒 Permissões utilizadas
 
 - `storage` → salvar preferências do usuário.
