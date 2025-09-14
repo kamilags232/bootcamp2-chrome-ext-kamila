@@ -79,7 +79,7 @@ my-chrome-extension/
 🌐 Landing Page (GitHub Pages)
 
 👉 Acesse: 
-[Landing Page](file:///C:/Users/beaut/focus-tab/docs/index.html)
+[Landing Page](https://kamilags232.github.io/bootcamp2-chrome-ext-kamila/)
 
 ---
 
