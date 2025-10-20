@@ -21,19 +21,33 @@ O **Focus Blocker** é uma extensão do Chrome (Manifest V3) desenvolvida para a
 ```
 
 focus-blocker/
+
 │
+
 ├── manifest.json
+
 ├── background.js
+
 ├── content.js
+
 ├── popup/
+
 │   ├── popup.html
+
 │   ├── popup.js
+
 │   └── popup.css
+
 ├── assets/
+
 │   └── icons/
+
 │       ├── icon16.png
+
 │       ├── icon48.png
+
 │       └── icon128.png
+
 └── README.md
 
 ````
