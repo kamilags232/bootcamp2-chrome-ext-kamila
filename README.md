@@ -1,6 +1,3 @@
-Perfeito 👌 Aqui está o **README.md** completo e atualizado do seu aplicativo **Focus Blocker**, agora com a seção **“Instalação no Google Chrome”**, explicando passo a passo como adicionar a extensão manualmente no navegador:
-
----
 
 ```markdown
 # 🧘‍♀️ Focus Blocker — Extensão para Google Chrome
