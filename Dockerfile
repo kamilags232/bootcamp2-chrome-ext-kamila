@@ -20,3 +20,4 @@ RUN node scripts/build-extension.mjs
 
 # default command (usado pelo compose)
 CMD ["npm","run","test:e2e"]
+
