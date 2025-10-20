@@ -1,108 +1,24 @@
-🔥 Phoenix Lock — Extensão Chrome (Manifest V3)
+# My Chrome Extension — E2E + CI
 
-Uma extensão simples e funcional para o Google Chrome que ajuda você a bloquear sites distrativos em momentos de concentração.
-Projeto desenvolvido como parte do Bootcamp II.
+## Como rodar localmente (sem Docker)
+1. `npm ci`
+2. `npm run build`
+3. `npx playwright test --reporter=list,html`
+4. Relatório em `playwright-report/`. Abra com `npx playwright show-report`.
 
----
+## Rodar com Docker Compose
+1. `docker compose build`
+2. `docker compose run --rm e2e`
+O container executa `npm run test:e2e` por padrão.
 
-🚀 Funcionalidades
-- Popup interativo com interface minimalista.
-- Service Worker em background para [alarms, storage, tabs…].
-- Content Script que [exemplo: destaca links em páginas específicas].
-- Ícones personalizados (fênix + cadeado 🟣⚫).
-- Compatível com Chrome 114+.
+## O que a pipeline faz (GitHub Actions)
+- Instala dependências e Playwright
+- Roda `npm run build` (gera `dist/extension.zip`)
+- Roda testes E2E com Playwright (HTML report em `playwright-report`)
+- Publica artefatos: `playwright-report` e `dist/extension.zip`
+- Se você criar uma tag `vX.Y.Z`, a workflow cria uma GitHub Release com o zip.
 
----
-
-📂 Estrutura do Projeto
-
-
-my-chrome-extension/
-├─ src/
-
-│ ├─ popup/
-
-│ │ ├─ popup.html
-
-│ │ ├─ popup.js
-
-│ │ └─ popup.css
-
-│ ├─ content/
-
-│ │ └─ content.js
-
-│ ├─ background/
-
-│ │ └─ service-worker.js
-
-│ └─ styles/
-
-│ └─ global.css
-
-├─ icons/
-
-│ ├─ icon16.png
-
-│ ├─ icon32.png
-
-│ ├─ icon48.png
-
-│ └─ icon128.png
-
-├─ docs/
-
-│ └─ index.html ← landing page (GitHub Pages)
-
-├─ manifest.json
-
-├─ README.md
-
-└─ LICENSE
-
-
----
-
-🛠️ Instalação manual (modo desenvolvedor)
-
-1. Baixe este repositório 
-[Repositório](https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
-2. Abra o Chrome e vá até: 
-[Extensões](chrome://extensions)
-
-3. Ative o **Modo do desenvolvedor** (Developer Mode).
-4. Clique em **Load unpacked** e selecione a pasta do projeto.
-5. O ícone da extensão aparecerá na barra de ferramentas. 🚀
-
----
-
-🌐 Landing Page (GitHub Pages)
-
-👉 Acesse: 
-[Landing Page](https://kamilags232.github.io/bootcamp2-chrome-ext-kamila/)
-
----
-
-🔒 Permissões utilizadas
-
-- `storage` → salvar preferências do usuário.
-- `tabs` → interagir com as abas abertas.
----
-
-📦 Download
-
-Baixe a versão empacotada (.zip) na aba 
-[Releases](https://github.com/kamilags232/bootcamp2-chrome-ext-kamila/releases/tag/v1.0.0).
-
----
-
-📜 Licença
-
-Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
-
----
-
-👩‍💻 Autor
-
-Projeto feito por Kamila Gomes da Silva
-[GitHub](https://github.com/kamilags232)  
+## Observações
+- Ajuste `tests/extension.spec.ts` para refletir como sua extensão funciona (content script, opções, popup).
+- Em ambientes CI rodamos headless. Localmente pode trocar `headless: false`.
+>>>>>>> f35746d (Entrega II - Extensão + Docker + CI)

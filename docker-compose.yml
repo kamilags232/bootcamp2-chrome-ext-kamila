@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  e2e:
+    build: .
+    image: my-ext-e2e:latest
+    environment:
+      - CI=true
+    volumes:
+      - ./:/app:cached
+    working_dir: /app
+    command: npm run test:e2e
+    shm_size: 2gb
+    # opcional: para ver o navegador localmente você precisaria de X forwarding; não coberto aqui
